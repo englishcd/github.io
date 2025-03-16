@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 const currentLocation = window.location.search;
 const sURL = currentLocation.replace("?m=1&zy=", ""); 
-const cHst = "cors-proxy.cooks.fyi";
   var tsPlayer = null,
       hlsPlayer = null,
       dashPlayer = null;
