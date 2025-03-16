@@ -49,7 +49,7 @@ const cHst = "cors-proxy.cooks.fyi";
 
   tsPlayer = videojs("#player");
   tsPlayer.src({
-    src: "https://" + cHst + "/" + sURL,
+    src: sURL,
     type: "video/mp2t",
     suppressNotSupportedError: true,
     mediaDataSource: {

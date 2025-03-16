@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   tsPlayer = mpegts.createPlayer({
     type: "mpegts",
-    url: "https://" + cHst + "/" + sURL,
+    url: sURL,
     isLive: true,
     enableStashBuffer: false
   });
