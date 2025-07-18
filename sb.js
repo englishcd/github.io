@@ -6,7 +6,7 @@
 * http://jamesmgreene.github.io/sandblaster/
 * v1.3.0
 */
-sb=0;
+sbd=0;
 (function(window, undefined) {
   "use strict";
   /********************
